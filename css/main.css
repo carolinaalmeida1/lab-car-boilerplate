@@ -1,144 +1,206 @@
-* {
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Raleway", "Lato", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6, small, a, p, ul, li {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
-/* Barra de navegação */
-.navbar {
-  background-color: #ffffff;
+header a {
+  color: #4d4d4d;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.labcar-nav {
+  padding: 4vh 0vw;
+}
+
+.labcar-section1-travel {
+  background-image: url("../assets/images/taxi.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  margin-top: 14vh;
+  padding: 15vh 0vh;
 }
 
-/* Primeira sessão */
-.section-1, .section-1-mobile {
-  background-image: url(../assets/images/taxi.jpg);
-  height: 60vw;
-  background-position: center bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.section-1-mobile {
-  height: 75vh;
-}
-
-.box-1, .box-1-mobile {
-  background-color: #f7b617;
-  color: white;
-  padding: 40px;
-  margin-top: 15vh;
-}
-
-.box-1-mobile {
-  background-color: #f7b617;
-  padding: 40px;
-  margin-top: 15vh;
-  color: white;
-}
-
-.title-main-1 {
-  font-size: 1.5em;
-}
-
-.subtitle-1 {
-  font-size: 1.5em;
-  display: inline-block;
-  margin-top: 20px;
-  margin-right: 10px;
-}
-
-.btn-register, .btn-become-driver {
-  background-color: #ffffff;
-  color: #000000;
-  font-size: 1.3em;
-}
-
-.subtitle-2 {
-  font-size: 1rem;
-}
-
-.line {
-  width: 13vw;
-}
-
-/* Segunda sessão */
-.section-2, .section-2-mobile {
+.labcar-section1-travel-box, .labcar-section2-app, .labcar-section4-location {
   background-color: #f7b617;
   color: #ffffff;
 }
 
-.box-info {
-  width: 80vw;
+.labcar-title-txt {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.section-2-mobile h1 {
+.labcar-title-txt-mobile {
   font-size: 1.5rem;
-  padding-left: 130px;
+  font-weight: 600;
 }
 
-.section-2-mobile h2 {
+.labcar-section1-travel-sub-txt {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.labcar-logo {
+  height: 1.2rem;
+}
+
+.labcar-logo-mobile {
+  height: 1rem;
+}
+
+.labcar-section1-travel-btn-txt {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.labcar-txt-small {
+  font-size: 0.9rem;
+}
+
+.labcar-iphone {
+  height: 45vh;
+}
+
+.labcar-txt {
+  font-family: "Lato";
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+
+.labcar-txt-mobile {
+  font-family: "Lato";
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
-/* Terceira sessão */
-.section-3 {
-  background-image: url(../assets/images/conduce.jpg);
-  height: 35vw;
-  background-position: center center;
-  background-size: cover;
+.labcar-section3-driver {
+  background-image: url("../assets/images/conduce.jpg");
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%
 }
 
-.box-3 {
+.labcar-section3-driver-box {
+  background-color: rgb(0, 0, 0, 0.5);
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.35);
-  height: 35vw;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
-.btn-become-driver-3 {
-  color: #ffffff;
+.labcar-section2-app-txt {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.labcar-section3-driver-btn {
   background-color: #f7b617;
-}
-
-/* Quarta sessão */
-.section-4 {
-  background-color: #f7b617;
   color: #ffffff;
-  height: 85vh;
+  font-weight: 600;
 }
 
-.section-4-mobile {
-  background-color: #f7b617;
-  color: white;
-}
-
-.form-control {
-  background-color: inherit;
+.labcar-input::placeholder {
   color: #ffffff;
-  border: 1px solid #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
-.btn-route {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-/* Footer */
-footer {
-  background-color: #2b2b2b;
+.labcar-input-mobile::placeholder {
   color: #ffffff;
-  height: 40vw;
+  font-size: 0.9rem;
 }
 
-hr {
-  border-top: 1px solid #ffffff;
+.labcar-input:focus, .labcar-input-mobile:focus {
+  box-shadow: none;
 }
 
-.item-footer, .icons  {
-  color: #ffffff;
+.labcar-section4-location-btn-txt {
+  font-family: "Lato";
+  font-size: 0.9rem;
 }
 
-footer li {
-  margin: 15px 0;
+.labcar-map {
+  height: 50vh;
+}
+
+.labcar-login-modal {
+  background-color: #00b5a5;
+}
+
+.labcar-login-modal-box {
+  background-color: #ffF9fe;
+}
+
+.labcar-login-modal-icon {
+ background-color: #fbf2f6;
+ color: #5c595B;
+}
+
+.labcar-input-modal:focus {
+  box-shadow: none;
+  border-color: #f7b617;
+}
+
+.labcar-driver-modal {
+  background-color: #b3acaf;
+}
+
+footer a {
+ color: #ffffff;
+ font-size: 0.9rem;
+ line-height: 2.3rem;
+}
+
+#footer-mobile a {
+ color: #ffffff;
+ font-size: 0.9rem;
+ font-weight: 600;
+ line-height: 2.3rem;
+}
+
+footer a:hover, #footer-mobile a:hover {
+  color: #f7b617;
+  text-decoration: none;
+}
+
+.labcar-footer {
+  background-color: #323031;
+}
+
+.labcar-footer-app {
+  width: 60%;
+}
+
+.labcar-copyright {
+  font-family: "Lato";
+  font-size: 0.9rem;
+}
+
+#travel1-mobile, #app2-mobile, #driver3-mobile, #location4-mobile, #footer-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  #travel1-desktop, #app2-desktop, #driver3-desktop, #location4-desktop, #footer-desktop {
+    display: none;
+  }
+  #travel1-mobile, #app2-mobile, #driver3-mobile, #location4-mobile, #footer-mobile {
+    display: block;
+  }
 }
